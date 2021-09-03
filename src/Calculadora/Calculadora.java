@@ -29,4 +29,8 @@ public class Calculadora {
 	public float raizQuadrada(float num) {
 		return (float) Math.sqrt(num);
 	}
+	
+	public int restoDaDivisão(int num,int divisor) {
+		return num%divisor;
+	}
 }
